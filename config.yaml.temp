@@ -1,0 +1,13 @@
+ENV: debug
+HTTPADDR: 8080
+Db:
+  MySql:
+    WxApi:
+      username: root
+      password: xxx
+      path: 127.0.0.1:3306
+      db_name: wxapi
+      config: charset=utf8&parseTime=True&loc=Local
+      max-idle-conns: 10
+      max-open-conns: 10
+      log_mode: true
